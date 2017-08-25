@@ -1,0 +1,8 @@
+*.DS_Store
+upgrade/
+uploads/
+themes/myfirsttheme/
+themes/twentyfifteen/
+themes/twentyseventeen/
+themes/twentysixteen/
+themes/redstarter-master/node_modules

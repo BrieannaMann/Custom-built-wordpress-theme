@@ -1,0 +1,36 @@
+.small-white-border{
+	border: 1px solid white;
+}
+.grey-border{
+	border: .1px solid $color_grey;
+	
+}
+.dark-grey-border{
+	border: .1px solid grey;
+	
+}
+.grey-border-top{
+	border-top: 5px solid $color_grey;
+}
+.grey-border-bottom{
+	border-bottom: 1px solid $color_grey;
+}
+.border-edge{
+	padding: 0 2em 0 2em;
+}
+.border-white{
+	border: 1em solid white;
+}
+.white-border-bottom{
+	border-bottom: 10px solid white;
+}
+.white-border-left{
+	border-left: 10px solid white;
+}
+.grey-border-left{
+	border-left: 1px solid $color_grey;
+	padding-left:1em;
+}
+.black-border{
+	border: 1px solid black;
+}

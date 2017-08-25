@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------
+# Page Templates
+	#Front page 
+	#Product page 
+	#footer
+--------------------------------------------------------------*/
+/*Nav */
+.nav-home{
+	width: 2em;
+	height: 24px;
+}
+.home-white{
+	display: none;
+}
+.home .home-white, .single-adventure .home-white, .page-id-16 .home-white {
+	display: block;
+}
+.home .home-green, .single-adventure .home-green, .page-id-16 .home-green {
+	display: none;
+}
+.home .menu-item a, .single-adventure .menu-item a, .page-id-16 .menu-item a, {
+	color: white;
+}
+.home .grey-border-bottom, .single-adventure .grey-border-bottom, .page-id-16 .grey-border-bottom {
+	border:none;
+}
+.home .main-navigation, .single-adventure .main-navigation, .page-id-16 .main-navigation {
+position: absolute;
+}
+
+/* Front page */
+
+.hero {
+	height: 10em;
+	clear:both;
+}
+.shop {
+	width: 25%;
+	margin:10px;
+}
+.shop-stuff-img{
+	width:30%;
+	padding-top: 1em;
+}
+.shop-description{
+	font-size: 10px;
+	text-align: center;
+}
+.green-background{
+	background-color: $color_green;
+	padding: .5em;
+}
+.journal{
+	width:100%
+}
+.journal-margin-10{
+	margin: 0 10px;
+}
+.journal-post{
+	width: 33%;
+
+		img{
+			height: 50vh;		
+	}
+}
+.journal-title{
+	margin-top:0;
+}
+.pad-btm-1{
+	padding-bottom: 1em;
+}
+.date {
+	font-size: .5em;
+}
+.journal-p{
+	margin-bottom:0;
+}
+.read-entry{
+	margin-bottom:10px;
+}
+.readmore{
+	padding:10px;
+}
+.more-adv{
+	padding: 5em 0;
+}
+/*-------------------------------/*
+/* Products */
+hr {
+    border-top:1px dotted #000;
+  	background-color:white;
+    /*Rest of stuff here*/
+} 
+dl { width: 100%; margin:0; }
+dt { float: left; width: 75%; overflow: hidden; white-space: nowrap; font-size: 1em; }
+dd { float: left; width: 25%;  margin: 0;}
+
+dt:after { content: " ....................................................." }
+
+.prod-div{
+	padding: .5em;
+}
+.prod-title{
+	font-size:.2em;
+	color: black;
+	padding: .1em;
+}
+
+.prod-price{
+	font-size:.2em;
+	color: black;
+}
+.all-product{
+	width :100%;
+	padding-bottom: 3em;
+
+}
+.product {
+	width : 25%;
+}
+
+.product-img{
+	border: .5em solid white;
+	border: 0;
+img{
+	height: 185px;
+}
+}
+
+/* ADVENTURE */
+.adventure-imgs{
+	height: 40vh;
+}
+.width-100{
+	width:100%;
+}
+.width-50{
+	width:50%;
+}
+.width-25{
+	width:25%;
+}
+.width-75{
+	width:75%;
+}
+.height-100{
+	height:100%;
+}
+.height-50{
+	height:50%;
+}
+.adv-margin{
+	margin:10px;
+
+}
+.adventure-content{
+	
+}
+
+/* Footer */
+
+.site-footer{
+background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/dark-wood@2x.png") center no-repeat;
+  background-size: cover;
+  padding:1em;}
+
+.social-logo{
+  color: white;
+  padding-right:10px;
+  }
+
+.footer-logo {
+	width: 75%;
+}
+.widget_media_image{
+	padding-top: 2em;
+}
+.copyright {
+	
+}
+#text-3{
+	width: 25%;
+}
+#text-2{
+	width:25%;
+}
+#media_image-2{
+	display: flex;
+	width:50%;
+	height:10%;
+	justify-content: flex-end;
+}
+#text-12{
+	display:flex;
+	width:100%;
+	justify-content: center;
+ 	 align-items: center;
+}
+
+/*  Single Product */
+
+.single-product-img{
+	width: 100%;
+	padding-right: 1em;
+}
+.social-icon{
+	padding: .5em 1em;
+	margin-right: .5em;
+}
+.sing-prod-page{
+	padding-top: 2em ;
+	padding-bottom: 5em;
+}
+
+
+/* ABOUT */
+
+
+.side-bar{
+width: 25%; 
+
+}
