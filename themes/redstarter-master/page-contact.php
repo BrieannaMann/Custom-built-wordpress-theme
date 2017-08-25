@@ -13,22 +13,14 @@ src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJV8QansdzhlQRatww-
     
 </div>
 <div class="our-story">
-	<h2> We take camping supplies very seriously.
-</h2>
-		<p>Inhabitent Camping Supply Co. knows what it takes to outfit a camping trip right. From flannel shirts to artisanal axes, we've got your covered. Please contact us below with any questions comments or suggestions.</p>
-	<h2> Send us Email!</h2>
-		<form action="mailto:info@inhabitent.com" method="post" enctype="text/plain">
-		Name:<br>
-		<input type="text" name="name"><br>
-		E-mail:<br>
-		<input type="email" name="mail"><br>
-        Subject:<br>
-		<input type="text" value name="subject" id="form-subject"><br>
-		Comment:<br>
-		<input type="text" name="comment" size="50"><br><br>
-		<input type="submit" value="Send">
-		<input type="reset" value="Reset">
-		</form>
+	<?php while ( have_posts() ) : the_post(); ?>
+
+       <?php the_content();  ?>
+
+      <?php endwhile; // End of the loop. ?>
+
+  
+		
 
 </div>
 </div>

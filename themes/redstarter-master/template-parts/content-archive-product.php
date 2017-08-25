@@ -6,7 +6,7 @@
  */
 
 ?>
-
+<?php echo"content-archive-product"; ?>
 <div class="flex product border-white">
       <dl class="grey-border">
         <?php echo '<a href="' . get_permalink() . '">';

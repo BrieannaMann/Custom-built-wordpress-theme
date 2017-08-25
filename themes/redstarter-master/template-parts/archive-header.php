@@ -1,4 +1,4 @@
-
+<?php echo"archive-header"; ?>
 <?php if(is_tax()=="product type"){ ?> 
        <?php
                     echo '<h1 class="page-title flex flex-center">';
