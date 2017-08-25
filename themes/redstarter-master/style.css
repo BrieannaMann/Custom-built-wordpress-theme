@@ -198,7 +198,7 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: none;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -741,6 +741,12 @@ object {
 
 .home .main-navigation, .single-adventure .main-navigation, .page-id-16 .main-navigation {
   position: absolute; }
+
+.home .search-logo, .single-adventure .search-logo, .page-id-16 .search-logo {
+  color: white; }
+
+.search-box {
+  display: none; }
 
 /* Front page */
 .hero {

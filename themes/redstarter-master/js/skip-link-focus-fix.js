@@ -31,3 +31,10 @@
 		}, false);
 	}
 })();
+
+jQuery(document).ready(function($){
+ $(".search-logo").click(function(){
+            $('.search-box').toggle(1000);
+ });
+});
+

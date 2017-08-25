@@ -27,6 +27,12 @@
 .home .main-navigation, .single-adventure .main-navigation, .page-id-16 .main-navigation {
 position: absolute;
 }
+.home .search-logo, .single-adventure .search-logo, .page-id-16 .search-logo, {
+	color: white;
+}
+.search-box{
+	display:none
+}
 
 /* Front page */
 
