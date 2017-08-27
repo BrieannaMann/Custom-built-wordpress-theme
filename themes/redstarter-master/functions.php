@@ -46,6 +46,11 @@ function wmpudev_enqueue_icon_stylesheet() {
 }
 add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet' );
 
+function custom_add_google_fonts() {
+ wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Merriweather:300,400', false );
+ }
+ add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -170,3 +175,4 @@ function add_search_box( $items, $args ) {
 
 return $items;
 }
+

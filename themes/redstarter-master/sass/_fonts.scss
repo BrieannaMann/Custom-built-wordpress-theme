@@ -1,9 +1,12 @@
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+
+
 h1{
 	font-size: 2em;
 }
+
 
 .white-font{
 	color: white;
@@ -12,14 +15,21 @@ h1{
 	color: $color_green;
 }
 .small-font{
-	font-size:10px;
+	font-size:12px;
 }
 .orange-font {
 	color: $color_orange;
+}
+.bold-font{
+	font-weight: Bold;
 }
 .green-bkg {
 	background-color: $color_green;
 }
 .black-font{
 	color:black;
+}
+.secondary-font{
+	font-family: $font-secondary;
+	font-weight: 300;
 }

@@ -7,7 +7,6 @@
 
 ?>
 <?php echo"content-product"; ?>
-<div id="primary" class="content-area border-edge sing-prod-page">
 
 		<div class="flex">
 			
@@ -17,22 +16,20 @@
 
 			    the_post_thumbnail(); ?>
 			    </div>
-			    
-			   <?php
-				$mykey_values = get_post_custom_values( 'price' );
-				  foreach ( $mykey_values as $key => $value ) { ?>
-				  	<div class="prod-div flex vertical-direction wrap flex-basis-50">
-			    <h1 class="orange-font">
+			    <div class="prod-div flex vertical-direction wrap flex-basis-50">
+			    <h1 class="orange-font ">
+			    <strong>
 			    <?php the_title(); ?> 
+			    </strong>
 			    </h1>
-			    <br>
-			    <h3>
-				   <?php  echo "$$value"; ?>
-				</h3>
-				    
-				 <?php  } ?>
-			<p>
-			<?php the_content();  ?>
+			    <h2> $
+				   <?php  echo get_field('price');?>
+				</h2>
+
+			
+			<p class="secondary-font">
+			<?php 
+			the_content();  ?>
 			<div class="flex ">
 			<i class="fa fa-facebook dark-grey-border social-icon" aria-hidden="true"> LIKE </i>
 			<i class="fa fa-twitter dark-grey-border social-icon" aria-hidden="true"> TWEET </i>
@@ -43,13 +40,3 @@
 			</div>	
 
 
-			<?php the_posts_navigation(); ?>
-
-
-		
-
-
-	</div><!-- #primary -->
-<?php
-get_footer();
-?>

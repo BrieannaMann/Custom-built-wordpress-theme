@@ -45,6 +45,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 # Maps
 --------------------------------------------------------------*/
+@font-face {
+ font-family: Novecento;
+ src: url('http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/fonts/Novecento/Novecentosanswide-Normal.ttf') format('truetype'),
+ url('http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/fonts/Novecento/Novecentosanswide-DemiBold.ttf') format('truetype');
+ }
+
 
 // Imported but not included in the stylesheet.
 

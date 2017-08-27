@@ -8,7 +8,7 @@ get_banner(); ?>
 
 <!-- START OF PRODUCTS SECTION  -->
 <div class="border-edge">
-<div>
+<div class="title-padding">
     <h1 class="flex-center flex"> SHOP STUFF </h1>
 </div>
 
@@ -26,10 +26,11 @@ if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
         $term_list .= '
             <div class="shop grey-border grey-border-top flex wrap flex-center">
             <img class="shop-stuff-img " src="http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/product-type-icons/'.$name.'.svg">  
-            <br> 
-            <p class="shop-description ">'.$description.'</p> 
+            <div>
+            <p class="shop-description small-font secondary-font">'.$description.'</p> 
+            </div>
             <div class="pad-btm-1">
-            <a class="white-font green-background small-font" href="' . esc_url( get_term_link( $term ) ) .'"alt="' . esc_attr( sprintf( __( 'View all post filed under %s', 'my_localization_domain' ), $name ) ) . '">' . $name . ' STUFF </a>
+            <a href="' . esc_url( get_term_link( $term ) ) .'"alt="' . esc_attr( sprintf( __( 'View all post filed under %s', 'my_localization_domain' ), $name ) ) . '"><p class="button-padding white-font green-bkg small-font">' . $name . ' STUFF </p></a>
             </div>
             </div>';
     }
@@ -39,8 +40,9 @@ if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
 
     
 <!-- START OF JOURNAL SECTION -->
+<div class="title-padding">
 <h1 class="flex-center flex "> INHABITENT JOURNAL</h1>
-
+    </div>
     <div class="journal flex ">
     <?php
         global $query_string;
@@ -50,13 +52,11 @@ if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
             <?php the_post_thumbnail();?>
             <div class="grey-border-top">
             <div class=" journal-margin-10 flex vertical-direction flex-left ">
-            <p class="journal-p date "><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
+            <p class="journal-p date secondary-font"><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
             <h3 class="green-font journal-title"><?php echo get_the_title() ?> 
             </h3> 
-
-            <br>
-            <div class="read-entry  flex flex-bottom">
-            <?php echo '<a  class="flex-center " href="' . get_permalink() . '"><h6 class="grey-border readmore "> READ ENTRY </h6></a>'; ?> </div>
+            <div class="read-entry  flex flex-bottom padding-top-2">
+            <?php echo '<a  class="flex-center " href="' . get_permalink() . '"><h6 class="grey-border readmore black-font button-padding">READ ENTRY </h6></a>'; ?> </div>
             </div>
             </div>
             </div>

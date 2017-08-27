@@ -44,6 +44,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Front page
 # Maps
 --------------------------------------------------------------*/
+@font-face {
+  font-family: Novecento;
+  src: url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/fonts/Novecento/Novecentosanswide-Normal.ttf") format("truetype"), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/fonts/Novecento/Novecentosanswide-DemiBold.ttf") format("truetype"); }
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -233,16 +237,23 @@ h1 {
   color: #248a83; }
 
 .small-font {
-  font-size: 10px; }
+  font-size: 12px; }
 
 .orange-font {
   color: #d99054; }
+
+.bold-font {
+  font-weight: Bold; }
 
 .green-bkg {
   background-color: #248a83; }
 
 .black-font {
   color: black; }
+
+.secondary-font {
+  font-family: Merriweather, sans-serif;
+  font-weight: 300; }
 
 /*--------------------------------------------------------------
 # Typography
@@ -253,7 +264,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: Novecento, serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -333,11 +344,8 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
-  margin: 0 0 1.5rem 3rem; }
-
 ul {
-  list-style: disc; }
+  list-style: none; }
 
 ol {
   list-style: decimal; }
@@ -762,8 +770,8 @@ object {
   padding-top: 1em; }
 
 .shop-description {
-  font-size: 10px;
-  text-align: center; }
+  text-align: center;
+  padding: 1em; }
 
 .green-background {
   background-color: #248a83;
@@ -778,7 +786,7 @@ object {
 .journal-post {
   width: 33%; }
   .journal-post img {
-    height: 50vh; }
+    height: 25vh; }
 
 .journal-title {
   margin-top: 0; }
@@ -795,11 +803,8 @@ object {
 .read-entry {
   margin-bottom: 10px; }
 
-.readmore {
-  padding: 10px; }
-
 .more-adv {
-  padding: 5em 0; }
+  padding: 2em 0 4em 0; }
 
 /*-------------------------------/*
 /* Products */
@@ -853,9 +858,6 @@ dt:after {
     height: 185px; }
 
 /* ADVENTURE */
-.adventure-imgs {
-  height: 40vh; }
-
 .width-100 {
   width: 100%; }
 
@@ -874,6 +876,9 @@ dt:after {
 .height-50 {
   height: 50%; }
 
+.height-25 {
+  height: 25%; }
+
 .adv-margin {
   margin: 10px; }
 
@@ -881,11 +886,11 @@ dt:after {
 .site-footer {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/dark-wood@2x.png") center no-repeat;
   background-size: cover;
-  padding: 1em; }
+  padding: 1em 0 0 1em; }
 
 .social-logo {
   color: white;
-  padding-right: 10px; }
+  padding-right: .5em; }
 
 .footer-logo {
   width: 75%; }
@@ -903,9 +908,11 @@ dt:after {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  height: 10%;
+  height: 10vh;
   -ms-flex-pack: end;
       justify-content: flex-end; }
+  #media_image-2 img {
+    width: 20vw; }
 
 #text-12 {
   display: -ms-flexbox;
@@ -916,22 +923,52 @@ dt:after {
   -ms-flex-align: center;
       align-items: center; }
 
+.copyright {
+  margin: 0; }
+
 /*  Single Product */
 .single-product-img {
   width: 100%;
   padding-right: 1em; }
 
 .social-icon {
-  padding: .5em 1em;
+  padding: .5em 2em;
   margin-right: .5em; }
-
-.sing-prod-page {
-  padding-top: 2em;
-  padding-bottom: 5em; }
 
 /* ABOUT */
 .side-bar {
   width: 25%; }
+
+.contact-info {
+  padding-bottom: .5em; }
+
+/*General padding */
+.title-padding {
+  padding: 1.5em; }
+
+.button-padding {
+  padding: .5em 1em; }
+
+.padding-top-2 {
+  padding-top: 2em; }
+
+.padding-top-1 {
+  padding-top: 1em; }
+
+.padding-1 {
+  padding: 1em; }
+
+.journal-name-padding {
+  padding: .1em 1em; }
+
+.taxonomy-description {
+  padding-bottom: 1em; }
+
+.tax-products {
+  padding: 0 2.5em 0 2.5em; }
+
+.page-end-padding {
+  padding: 1em; }
 
 #map {
   height: 400px;
@@ -1007,19 +1044,16 @@ dt:after {
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
 
-.single-journal {
-  padding: 1em; }
-
 .journal-img {
   width: 100%;
-  height: 70vh; }
+  height: 60vh; }
 
 .journal-name {
   width: 75%;
   margin-top: 5%; }
 
 .journal-date {
-  padding: 0 1em; }
+  padding: .1em 2em; }
 
 .journal-page {
   width: 75%; }

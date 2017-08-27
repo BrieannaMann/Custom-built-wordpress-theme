@@ -49,8 +49,8 @@ position: absolute;
 	padding-top: 1em;
 }
 .shop-description{
-	font-size: 10px;
 	text-align: center;
+	padding: 1em;
 }
 .green-background{
 	background-color: $color_green;
@@ -66,7 +66,7 @@ position: absolute;
 	width: 33%;
 
 		img{
-			height: 50vh;		
+			height: 25vh;		
 	}
 }
 .journal-title{
@@ -84,11 +84,9 @@ position: absolute;
 .read-entry{
 	margin-bottom:10px;
 }
-.readmore{
-	padding:10px;
-}
+
 .more-adv{
-	padding: 5em 0;
+	padding: 2em 0 4em 0;
 }
 /*-------------------------------/*
 /* Products */
@@ -134,9 +132,6 @@ img{
 }
 
 /* ADVENTURE */
-.adventure-imgs{
-	height: 40vh;
-}
 .width-100{
 	width:100%;
 }
@@ -155,6 +150,9 @@ img{
 .height-50{
 	height:50%;
 }
+.height-25{
+	height:25%;
+}
 .adv-margin{
 	margin:10px;
 
@@ -168,11 +166,11 @@ img{
 .site-footer{
 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/dark-wood@2x.png") center no-repeat;
   background-size: cover;
-  padding:1em;}
+  padding:1em 0 0 1em;}
 
 .social-logo{
   color: white;
-  padding-right:10px;
+  padding-right:.5em;
   }
 
 .footer-logo {
@@ -180,9 +178,6 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 }
 .widget_media_image{
 	padding-top: 2em;
-}
-.copyright {
-	
 }
 #text-3{
 	width: 25%;
@@ -193,14 +188,20 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 #media_image-2{
 	display: flex;
 	width:50%;
-	height:10%;
+	height: 10vh;
 	justify-content: flex-end;
+		img{
+		width:20vw;
+		}
 }
 #text-12{
 	display:flex;
 	width:100%;
 	justify-content: center;
  	 align-items: center;
+}
+.copyright{
+	margin:0;
 }
 
 /*  Single Product */
@@ -210,13 +211,10 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 	padding-right: 1em;
 }
 .social-icon{
-	padding: .5em 1em;
+	padding: .5em 2em;
 	margin-right: .5em;
 }
-.sing-prod-page{
-	padding-top: 2em ;
-	padding-bottom: 5em;
-}
+
 
 
 /* ABOUT */
@@ -224,5 +222,38 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 
 .side-bar{
 width: 25%; 
+}
+.contact-info{
+	padding-bottom:.5em;
+	
+}
 
+/*General padding */
+
+.title-padding{
+	padding: 1.5em;
+}
+.button-padding{
+	padding: .5em 1em;
+}
+.padding-top-2{
+	padding-top:2em;
+}
+.padding-top-1{
+	padding-top:1em;
+}
+.padding-1{
+	padding: 1em;
+}
+.journal-name-padding{
+	padding:.1em 1em;
+}
+.taxonomy-description{
+	padding-bottom:1em;
+}
+.tax-products{
+	padding: 0 2.5em 0 2.5em;
+}
+.page-end-padding{
+	padding:1em;
 }

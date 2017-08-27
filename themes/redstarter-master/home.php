@@ -11,7 +11,7 @@ echo "home.php"; ?>
    
         <div class="journal-img flex vertical-direction space-between" style="background: url('<?php echo $backgroundImg[0]; ?>'); background-size:cover;">
 
-        <div class="journal-name white-font green-bkg flex flex-left">
+        <div class="journal-name white-font green-bkg flex flex-left journal-name-padding">
             <h2> <?php the_title() ?> </h2> 
         </div>
     <div class="journal-date white-font green-bkg flex flex-right flex-align-right">
@@ -20,20 +20,21 @@ echo "home.php"; ?>
     </div>
 
 
-    <div class="journal-exerpt">
+    <div class="journal-exerpt secondary-font padding-top-1">
         <?php the_excerpt(); ?>
     </div>
     <div class="read-entry flex">
 <?php
     echo '<a class="flex-center" href="' . get_permalink() . '"> '?> 
-    <h6 class="black-border black-font readmore">READ MORE -> </h6> 
+    <h6 class="black-border black-font button-padding">READ MORE -> </h6> 
     <?php 
     echo '</a>'; ?>
 
     </div>
     </div>
     <?php endwhile; ?>
-
+<div class="page-end-padding">
+</div>
 </div>
 
 
