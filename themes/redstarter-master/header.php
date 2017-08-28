@@ -26,7 +26,7 @@
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="main-navigation space-between grey-border-bottom" role="navigation">
+				<nav id="site-navigation" class="main-navigation space-between grey-border-bottom padding-bottom-med border-edge" role="navigation">
 					<div class="home-logo"> 
 					<a href="http://localhost:8888/wordpress/">
 						<img class="nav-home home-white" src="http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/logos/inhabitent-logo-tent-white.svg">

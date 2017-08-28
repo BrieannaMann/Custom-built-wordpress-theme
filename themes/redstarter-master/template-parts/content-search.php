@@ -20,5 +20,13 @@
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+	</div>
+	<div class="margin-10 flex">
+	<?php
+    echo '<a class="flex-center" href="' . get_permalink() . '"> '?> 
+    <h6 class="black-border black-font button-padding">READ MORE -> </h6> 
+    <?php 
+    echo '</a>'; ?>
+    <div>
+    <!-- .entry-summary -->
 </article><!-- #post-## -->

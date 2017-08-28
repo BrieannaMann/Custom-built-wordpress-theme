@@ -11,7 +11,7 @@ get_banner();
 echo "single.php";
 ?>
 <div class="flex ">
-	<div id="primary" class="content-area border-edge width-75">
+	<div id="primary" class="content-area border-edge">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -23,7 +23,7 @@ echo "single.php";
 	</div><!-- #primary -->
 	<?php if (is_singular( 'post' ) ) { ?>
 
-<div class="side-bar grey-border-left">
+<div class="width-25 grey-border-left padding-med">
 <?php get_sidebar(); ?>
 </div>
 <?php }else{} ?>

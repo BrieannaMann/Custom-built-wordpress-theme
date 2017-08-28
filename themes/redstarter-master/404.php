@@ -7,12 +7,11 @@
  * @package RED_Starter_Theme
  */
 
-get_header(); 
-echo "404.php";?>
+get_header(); ?>
 <div class="flex">
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="content-area border-edge">
+		<main id="main" class="site-main padding-bottom-lg" role="main">
 
 			<section class="error-404 not-found">
 				<header class="page-header">
@@ -53,7 +52,7 @@ echo "404.php";?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<div class="side-bar grey-border-left">
+<div class="width-25 grey-border-left padding-med">
 <?php get_sidebar(); ?>
 </div>
 </div>

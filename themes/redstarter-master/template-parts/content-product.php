@@ -6,25 +6,19 @@
  */
 
 ?>
-<?php echo"content-product"; ?>
-
-		<div class="flex">
-			
-				
-			    <div class="single-product-img flex-basis-50">
-			    <?php
-
-			    the_post_thumbnail(); ?>
-			    </div>
-			    <div class="prod-div flex vertical-direction wrap flex-basis-50">
-			    <h1 class="orange-font ">
-			    <strong>
-			    <?php the_title(); ?> 
-			    </strong>
-			    </h1>
-			    <h2> $
-				   <?php  echo get_field('price');?>
-				</h2>
+<div class="flex padding-bottom-lg">
+	<div class="single-product-img width-50">
+	<?php the_post_thumbnail(); ?>
+	</div>
+	<div class="prod-div flex vertical-direction wrap flex-basis-50">
+		<h1 class="orange-font ">
+		<strong>
+			<?php the_title(); ?> 
+		</strong>
+		</h1>
+		<h2> $
+			<?php  echo get_field('price');?>
+		</h2>
 
 			
 			<p class="secondary-font">

@@ -12,7 +12,7 @@ $args = array( 'post_type' => 'adventure' );
 <?php 
     the_title(); ?>
     </h3>
-<div class="read-entry flex ">
+<div class="margin-10 flex ">
 <?php
     echo '<a  href="' . get_permalink() . '"><h6 class="small-white-border readmore white-font"> READ MORE </h6></a>';
     echo '</div>';

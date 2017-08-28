@@ -10,12 +10,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header flex vertical-direction adventure-content">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title flex flex-center">', '</h1>' ); ?>
 
 		<div class="entry-meta ">
 		 <?php red_starter_posted_by(); ?>
 		</div><!-- .entry-meta -->
-		<div >
+		<div class="flex flex-center vertical-direction">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(

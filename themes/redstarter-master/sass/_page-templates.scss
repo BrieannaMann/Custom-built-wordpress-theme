@@ -1,14 +1,26 @@
 /*--------------------------------------------------------------
 # Page Templates
-	#Front page 
-	#Product page 
-	#footer
---------------------------------------------------------------*/
-/*Nav */
+	#  1 Nav 
+	#  2 Home page
+		# 2.1 Shop Section
+		# 2.2 Journal Section
+		# 2.3 Adventure Section 
+	# 3 Product Page 
+	# 4 Adventure Page 
+	# 5 Footer
+--------------------------------------------------------------
+ 1 Nav */
+
 .nav-home{
 	width: 2em;
 	height: 24px;
 }
+.search-box{
+	display:none
+}
+
+/* Nav changeing from green to white */
+
 .home-white{
 	display: none;
 }
@@ -30,65 +42,41 @@ position: absolute;
 .home .search-logo, .single-adventure .search-logo, .page-id-16 .search-logo, {
 	color: white;
 }
-.search-box{
-	display:none
-}
 
-/* Front page */
 
-.hero {
-	height: 10em;
-	clear:both;
-}
-.shop {
-	width: 25%;
-	margin:10px;
-}
-.shop-stuff-img{
+/*-------------------------------------------------------- 
+ 2 Front page */
+
+/* 2.1 Shop Section */
+
+.shop-stuff-icon{
 	width:30%;
-	padding-top: 1em;
+	padding-top: 10px;
 }
-.shop-description{
-	text-align: center;
-	padding: 1em;
+
+/*  2.2 Journal Section */
+
+.journal-img{
+	height:60vh;
 }
-.green-background{
-	background-color: $color_green;
-	padding: .5em;
+.journal-name{
+	width:75%;
+	margin-top:5%;
 }
-.journal{
-	width:100%
-}
-.journal-margin-10{
-	margin: 0 10px;
-}
-.journal-post{
+
+.width-33{
 	width: 33%;
 
 		img{
 			height: 25vh;		
 	}
 }
-.journal-title{
-	margin-top:0;
-}
-.pad-btm-1{
-	padding-bottom: 1em;
-}
-.date {
-	font-size: .5em;
-}
-.journal-p{
-	margin-bottom:0;
-}
-.read-entry{
-	margin-bottom:10px;
-}
 
 .more-adv{
 	padding: 2em 0 4em 0;
 }
-/*-------------------------------/*
+
+/*----------------------------------------------------------------/*
 /* Products */
 hr {
     border-top:1px dotted #000;
@@ -119,40 +107,16 @@ dt:after { content: " ....................................................." }
 	padding-bottom: 3em;
 
 }
-.product {
-	width : 25%;
-}
 
 .product-img{
-	border: .5em solid white;
-	border: 0;
-img{
+	img{
 	height: 185px;
-}
+	}
 }
 
+/*------------------------------------------------------------------------------ */
 /* ADVENTURE */
-.width-100{
-	width:100%;
-}
-.width-50{
-	width:50%;
-}
-.width-25{
-	width:25%;
-}
-.width-75{
-	width:75%;
-}
-.height-100{
-	height:100%;
-}
-.height-50{
-	height:50%;
-}
-.height-25{
-	height:25%;
-}
+
 .adv-margin{
 	margin:10px;
 
@@ -161,6 +125,7 @@ img{
 	
 }
 
+/*---------------------------------------------------------------------------------------- */
 /* Footer */
 
 .site-footer{
@@ -216,44 +181,84 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 }
 
 
-
+/*----------------------------------------------------------------------------------------*/
 /* ABOUT */
 
-
-.side-bar{
-width: 25%; 
-}
-.contact-info{
-	padding-bottom:.5em;
-	
-}
-
+/*---------------------------------------------------------------------------------------- */
 /*General padding */
 
 .title-padding{
-	padding: 1.5em;
+	padding: 1.5em 0;
 }
 .button-padding{
 	padding: .5em 1em;
 }
-.padding-top-2{
+.journal-padding{
+	padding:.1em 2em;
+}
+.padding-top-lg{
 	padding-top:2em;
 }
-.padding-top-1{
+.padding-top-med{
 	padding-top:1em;
 }
-.padding-1{
-	padding: 1em;
+.padding-sm{
+	padding:.5em;
 }
-.journal-name-padding{
-	padding:.1em 1em;
+.padding-med{
+	padding:1em;
 }
-.taxonomy-description{
+.padding-lg{
+	padding:2em;
+}
+.padding-bottom-med{
 	padding-bottom:1em;
 }
-.tax-products{
-	padding: 0 2.5em 0 2.5em;
+.padding-bottom-lg{
+	padding-bottom:2em;
 }
-.page-end-padding{
-	padding:1em;
+.padding-bottom-sm{
+	padding-bottom:.5em;
+}
+.more-adv-padding{
+	padding: 2em 0 4em 0;
+}
+
+/*---------------------------------------------------------------------------------------- */
+/* General sizes */
+
+.width-100{
+	width:100%;
+}
+.width-50{
+	width:50%;
+}
+.width-25{
+	width:25%;
+}
+.width-75{
+	width:75%;
+}
+.height-100{
+	height:100%;
+}
+.height-50{
+	height:50%;
+}
+.height-25{
+	height:25%;
+}
+/*---------------------------------------------------------------------------------------- */
+/* Margin sizes */
+.margin-sm{
+	margin:1em;
+}
+.margin-10{
+	margin: 0 10px;
+}
+.margin-bottom-0{
+	margin-bottom:0;
+}
+.margin-top-0{
+	margin-top:0;
 }
