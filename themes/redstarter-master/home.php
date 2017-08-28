@@ -2,7 +2,7 @@
 //HEADER 
 get_header(); ?>
 <div class="flex">
-    <div class="width-75 border-edge">
+    <div class="width-75 border-edge padding-top-med">
     <?php
     while(have_posts()):the_post(); ?>
     	<div>
@@ -18,7 +18,7 @@ get_header(); ?>
             <div class="secondary-font padding-top-med">
                 <?php the_excerpt(); ?>
             </div>
-            <div class="margin-10 flex">
+            <div class="margin-10 flex padding-bottom-lg">
                 <?php echo '<a class="flex-center" href="' . get_permalink() . '"> '?> 
                 <h6 class="black-border black-font button-padding">READ MORE -> </h6> 
                 <?php echo '</a>'; ?>   
