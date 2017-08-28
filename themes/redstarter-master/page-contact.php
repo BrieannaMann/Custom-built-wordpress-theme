@@ -2,8 +2,8 @@
 get_header(); ?>
 
 <div class="flex">
-<div class="width-75">
-<div class="about border-edge">
+<div class="width-75 border-edge">
+<div class="about ">
 	<h1> FIND US </h1>
     <div id="map ">
       	<iframe class="flex flex-center" width="100%" height="400" frameborder="0" style="border:0"
