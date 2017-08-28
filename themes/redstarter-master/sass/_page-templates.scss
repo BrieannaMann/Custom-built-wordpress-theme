@@ -3,11 +3,9 @@
 	#  1 Nav 
 	#  2 Home page
 		# 2.1 Shop Section
-		# 2.2 Journal Section
-		# 2.3 Adventure Section 
+		# 2.2 Journal Section 
 	# 3 Product Page 
-	# 4 Adventure Page 
-	# 5 Footer
+	# 4 Footer
 --------------------------------------------------------------
  1 Nav */
 
@@ -45,7 +43,7 @@ position: absolute;
 
 
 /*-------------------------------------------------------- 
- 2 Front page */
+2 Front page */
 
 /* 2.1 Shop Section */
 
@@ -72,41 +70,16 @@ position: absolute;
 	}
 }
 
-.more-adv{
-	padding: 2em 0 4em 0;
-}
+
 
 /*----------------------------------------------------------------/*
-/* Products */
-hr {
-    border-top:1px dotted #000;
-  	background-color:white;
-    /*Rest of stuff here*/
-} 
+/* 3 Product page */
+
 dl { width: 100%; margin:0; }
 dt { float: left; width: 75%; overflow: hidden; white-space: nowrap; font-size: 1em; }
 dd { float: left; width: 25%;  margin: 0;}
 
 dt:after { content: " ....................................................." }
-
-.prod-div{
-	padding: .5em;
-}
-.prod-title{
-	font-size:.2em;
-	color: black;
-	padding: .1em;
-}
-
-.prod-price{
-	font-size:.2em;
-	color: black;
-}
-.all-product{
-	width :100%;
-	padding-bottom: 3em;
-
-}
 
 .product-img{
 	img{
@@ -114,16 +87,7 @@ dt:after { content: " ....................................................." }
 	}
 }
 
-/*------------------------------------------------------------------------------ */
-/* ADVENTURE */
 
-.adv-margin{
-	margin:10px;
-
-}
-.adventure-content{
-	
-}
 
 /*---------------------------------------------------------------------------------------- */
 /* Footer */
@@ -171,10 +135,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 
 /*  Single Product */
 
-.single-product-img{
-	width: 100%;
-	padding-right: 1em;
-}
+
 .social-icon{
 	padding: .5em 2em;
 	margin-right: .5em;
@@ -202,6 +163,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 .padding-top-med{
 	padding-top:1em;
 }
+.padding-xsm{
+	padding: .1em;
+}
 .padding-sm{
 	padding:.5em;
 }
@@ -217,11 +181,17 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 .padding-bottom-lg{
 	padding-bottom:2em;
 }
+.padding-bottom-xl{
+	padding-bottom:3em;
+}
 .padding-bottom-sm{
 	padding-bottom:.5em;
 }
 .more-adv-padding{
 	padding: 2em 0 4em 0;
+}
+.padding-right-lg{
+	padding-right:2em;
 }
 
 /*---------------------------------------------------------------------------------------- */

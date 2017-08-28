@@ -7,7 +7,7 @@
            <p> <?php the_archive_description(); ?> </p>
         </div>
         <hr></hr>
-        <div class="all-product flex wrap"> 
+        <div class="width-100 padding-bottom-xl flex wrap"> 
 
 <?php } elseif(get_post_type()== "product")  { ?>
 
@@ -25,7 +25,7 @@
     <?php echo $term_list;  ?>
     </div>
     <hr></hr>
-         <?php echo '<div class="all-product flex wrap">'; ?>
+         <?php echo '<div class="width-100 padding-bottom-xl flex wrap">'; ?>
     <?php } else{ ?>
         <div>
                 <br>

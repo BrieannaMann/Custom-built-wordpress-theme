@@ -265,6 +265,14 @@ h1 {
 .center-text {
   text-align: center; }
 
+.prod-title {
+  font-size: .2em;
+  color: black; }
+
+.prod-price {
+  font-size: .2em;
+  color: black; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -349,7 +357,8 @@ blockquote, q {
     content: ""; }
 
 hr {
-  background-color: #ccc;
+  border-top: 1px dotted #000;
+  background-color: white;
   border: 0;
   height: 1px;
   margin-bottom: 1.5rem; }
@@ -733,11 +742,9 @@ object {
 	#  1 Nav 
 	#  2 Home page
 		# 2.1 Shop Section
-		# 2.2 Journal Section
-		# 2.3 Adventure Section 
+		# 2.2 Journal Section 
 	# 3 Product Page 
-	# 4 Adventure Page 
-	# 5 Footer
+	# 4 Footer
 --------------------------------------------------------------
  1 Nav */
 .nav-home {
@@ -770,7 +777,7 @@ object {
   color: white; }
 
 /*-------------------------------------------------------- 
- 2 Front page */
+2 Front page */
 /* 2.1 Shop Section */
 .shop-stuff-icon {
   width: 30%;
@@ -789,16 +796,8 @@ object {
   .width-33 img {
     height: 25vh; }
 
-.more-adv {
-  padding: 2em 0 4em 0; }
-
 /*----------------------------------------------------------------/*
-/* Products */
-hr {
-  border-top: 1px dotted #000;
-  background-color: white;
-  /*Rest of stuff here*/ }
-
+/* 3 Product page */
 dl {
   width: 100%;
   margin: 0; }
@@ -818,29 +817,8 @@ dd {
 dt:after {
   content: " ....................................................."; }
 
-.prod-div {
-  padding: .5em; }
-
-.prod-title {
-  font-size: .2em;
-  color: black;
-  padding: .1em; }
-
-.prod-price {
-  font-size: .2em;
-  color: black; }
-
-.all-product {
-  width: 100%;
-  padding-bottom: 3em; }
-
 .product-img img {
   height: 185px; }
-
-/*------------------------------------------------------------------------------ */
-/* ADVENTURE */
-.adv-margin {
-  margin: 10px; }
 
 /*---------------------------------------------------------------------------------------- */
 /* Footer */
@@ -888,10 +866,6 @@ dt:after {
   margin: 0; }
 
 /*  Single Product */
-.single-product-img {
-  width: 100%;
-  padding-right: 1em; }
-
 .social-icon {
   padding: .5em 2em;
   margin-right: .5em; }
@@ -915,6 +889,9 @@ dt:after {
 .padding-top-med {
   padding-top: 1em; }
 
+.padding-xsm {
+  padding: .1em; }
+
 .padding-sm {
   padding: .5em; }
 
@@ -930,11 +907,17 @@ dt:after {
 .padding-bottom-lg {
   padding-bottom: 2em; }
 
+.padding-bottom-xl {
+  padding-bottom: 3em; }
+
 .padding-bottom-sm {
   padding-bottom: .5em; }
 
 .more-adv-padding {
   padding: 2em 0 4em 0; }
+
+.padding-right-lg {
+  padding-right: 2em; }
 
 /*---------------------------------------------------------------------------------------- */
 /* General sizes */

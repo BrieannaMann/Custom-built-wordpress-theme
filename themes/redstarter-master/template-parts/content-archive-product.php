@@ -20,7 +20,7 @@
   
         $mykey_values = get_post_custom_values( 'price' );
           foreach ( $mykey_values as $key => $value ) { 
-                echo '<div class="prod-div flex flex-center ">';
+                echo '<div class="padding-sm flex flex-center ">';
             echo'<dt class="prod-title secondary-font">';
           the_title(); 
           echo'</dt>';

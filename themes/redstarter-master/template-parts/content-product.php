@@ -6,11 +6,11 @@
  */
 
 ?>
-<div class="flex padding-bottom-lg">
-	<div class="single-product-img width-50">
+<div class="flex padding-lg">
+	<div class="padding-right-lg width-50">
 	<?php the_post_thumbnail(); ?>
 	</div>
-	<div class="prod-div flex vertical-direction wrap flex-basis-50">
+	<div class="padding-sm flex vertical-direction wrap flex-basis-50">
 		<h1 class="orange-font ">
 		<strong>
 			<?php the_title(); ?> 
