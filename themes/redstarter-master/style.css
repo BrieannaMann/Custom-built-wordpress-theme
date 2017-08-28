@@ -745,6 +745,11 @@ object {
 		# 2.2 Journal Section 
 	# 3 Product Page 
 	# 4 Footer
+	# 5 Single Product
+	# 6 General padding
+	# 7 General sizes
+	# 8 Margin sizes
+
 --------------------------------------------------------------
  1 Nav */
 .nav-home {
@@ -796,6 +801,10 @@ object {
   .width-33 img {
     height: 25vh; }
 
+/* 2.3 Adventure Section  */
+.height-60 {
+  height: 60vh; }
+
 /*----------------------------------------------------------------/*
 /* 3 Product page */
 dl {
@@ -821,7 +830,7 @@ dt:after {
   height: 185px; }
 
 /*---------------------------------------------------------------------------------------- */
-/* Footer */
+/* 4 Footer */
 .site-footer {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/dark-wood@2x.png") center no-repeat;
   background-size: cover;
@@ -830,9 +839,6 @@ dt:after {
 .social-logo {
   color: white;
   padding-right: .5em; }
-
-.footer-logo {
-  width: 75%; }
 
 .widget_media_image {
   padding-top: 2em; }
@@ -847,11 +853,9 @@ dt:after {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  height: 10vh;
+  height: 10%;
   -ms-flex-pack: end;
       justify-content: flex-end; }
-  #media_image-2 img {
-    width: 20vw; }
 
 #text-12 {
   display: -ms-flexbox;
@@ -862,18 +866,13 @@ dt:after {
   -ms-flex-align: center;
       align-items: center; }
 
-.copyright {
-  margin: 0; }
-
-/*  Single Product */
+/* 5 Single Product */
 .social-icon {
   padding: .5em 2em;
   margin-right: .5em; }
 
-/*----------------------------------------------------------------------------------------*/
-/* ABOUT */
 /*---------------------------------------------------------------------------------------- */
-/*General padding */
+/* 6 General padding */
 .title-padding {
   padding: 1.5em 0; }
 
@@ -920,7 +919,7 @@ dt:after {
   padding-right: 2em; }
 
 /*---------------------------------------------------------------------------------------- */
-/* General sizes */
+/* 7 General sizes */
 .width-100 {
   width: 100%; }
 
@@ -943,7 +942,7 @@ dt:after {
   height: 25%; }
 
 /*---------------------------------------------------------------------------------------- */
-/* Margin sizes */
+/* 8 Margin sizes */
 .margin-sm {
   margin: 1em; }
 

@@ -6,6 +6,11 @@
 		# 2.2 Journal Section 
 	# 3 Product Page 
 	# 4 Footer
+	# 5 Single Product
+	# 6 General padding
+	# 7 General sizes
+	# 8 Margin sizes
+
 --------------------------------------------------------------
  1 Nav */
 
@@ -70,7 +75,10 @@ position: absolute;
 	}
 }
 
-
+/* 2.3 Adventure Section  */
+.height-60{
+	height: 60vh;
+}
 
 /*----------------------------------------------------------------/*
 /* 3 Product page */
@@ -88,23 +96,20 @@ dt:after { content: " ....................................................." }
 }
 
 
-
 /*---------------------------------------------------------------------------------------- */
-/* Footer */
+/* 4 Footer */
 
 .site-footer{
-background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/dark-wood@2x.png") center no-repeat;
-  background-size: cover;
-  padding:1em 0 0 1em;}
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:8888/wordpress/wp-content/themes/redstarter-master/assets/images/dark-wood@2x.png") center no-repeat;
+	background-size: cover;
+	padding:1em 0 0 1em;
+ }
 
 .social-logo{
   color: white;
   padding-right:.5em;
   }
 
-.footer-logo {
-	width: 75%;
-}
 .widget_media_image{
 	padding-top: 2em;
 }
@@ -117,11 +122,8 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 #media_image-2{
 	display: flex;
 	width:50%;
-	height: 10vh;
-	justify-content: flex-end;
-		img{
-		width:20vw;
-		}
+	height:10%;
+	justify-content: flex-end;		
 }
 #text-12{
 	display:flex;
@@ -129,12 +131,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 	justify-content: center;
  	 align-items: center;
 }
-.copyright{
-	margin:0;
-}
 
-/*  Single Product */
 
+/* 5 Single Product */
 
 .social-icon{
 	padding: .5em 2em;
@@ -142,11 +141,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 }
 
 
-/*----------------------------------------------------------------------------------------*/
-/* ABOUT */
 
 /*---------------------------------------------------------------------------------------- */
-/*General padding */
+/* 6 General padding */
 
 .title-padding{
 	padding: 1.5em 0;
@@ -195,7 +192,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 }
 
 /*---------------------------------------------------------------------------------------- */
-/* General sizes */
+/* 7 General sizes */
 
 .width-100{
 	width:100%;
@@ -219,7 +216,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http:/
 	height:25%;
 }
 /*---------------------------------------------------------------------------------------- */
-/* Margin sizes */
+/* 8 Margin sizes */
 .margin-sm{
 	margin:1em;
 }

@@ -1,5 +1,4 @@
 <?php
-echo 'archive.php ';
 /**
 * The template for displaying archive pages.
 *
@@ -9,7 +8,7 @@ echo 'archive.php ';
 get_header();
 
 ?>
-<div id="primary" class="content-area border-edge">
+<div id="primary" class="content-area border-edge padding-bottom-xl">
     <main id="main" class="site-main" role="main">
 
     <?php get_template_part("template-parts/archive","header"); ?>
