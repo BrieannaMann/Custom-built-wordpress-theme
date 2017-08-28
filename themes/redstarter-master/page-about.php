@@ -1,8 +1,7 @@
 <?php
 get_header();
+get_banner(); ?>
 
-get_banner();
-?>
 <div class="flex vertical-direction padding-bottom-lg ">
 <?php $title1= get_post_custom_values('title_1'); 
 foreach ( $title1 as $key => $titleone ) { ?>

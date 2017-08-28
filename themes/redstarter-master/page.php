@@ -4,9 +4,8 @@
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); 
-echo "page.php";?>
+?>
 
 
 	<div id="primary" class="content-area">

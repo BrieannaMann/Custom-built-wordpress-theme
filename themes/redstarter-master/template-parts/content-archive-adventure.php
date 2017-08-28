@@ -1,6 +1,4 @@
-<?php echo"content-archive-adventure"; ?>
 <?php
-
 $args = array( 'post_type' => 'adventure' );
 
     $loop = new WP_Query( $args );

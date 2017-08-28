@@ -1,7 +1,6 @@
 <?php
-get_header();
-echo "Page-Contact.php";
-?>
+get_header(); ?>
+
 <div class="flex">
 <div class="width-75">
 <div class="about border-edge">

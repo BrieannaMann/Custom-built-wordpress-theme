@@ -6,7 +6,7 @@
  */
 
 ?>
-<?php echo"content-adventure"; ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header flex vertical-direction adventure-content">
 

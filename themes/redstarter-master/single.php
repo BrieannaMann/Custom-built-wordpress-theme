@@ -4,28 +4,22 @@
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); 
-get_banner();
+get_banner();?>
 
-echo "single.php";
-?>
 <div class="flex ">
 	<div id="primary" class="content-area border-edge">
 		<main id="main" class="site-main" role="main">
+			<?php while ( have_posts() ) : the_post(); 
+				get_template_part( 'template-parts/content',get_post_type()); 
 
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', get_post_type()); 
-
-	endwhile; // End of the loop. ?>
-
+			endwhile; ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	<?php if (is_singular( 'post' ) ) { ?>
-
-<div class="width-25 grey-border-left padding-med">
-<?php get_sidebar(); ?>
-</div>
-<?php }else{} ?>
-</div>
-<?php get_footer(); ?>
+		<div class="width-25 grey-border-left padding-med">
+		<?php get_sidebar(); ?>
+		</div>
+		<?php }else{} ?>
+		</div>
+	<?php get_footer(); ?>
